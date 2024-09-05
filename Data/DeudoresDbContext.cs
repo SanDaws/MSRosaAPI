@@ -6,13 +6,13 @@ using Pomelo.EntityFrameworkCore.MySql.Scaffolding.Internal;
 
 namespace MSRosaAPI.Data;
 
-public partial class Buarmabpi5dp0ox4idcpContext : DbContext
+public partial class DeudoresDbContext : DbContext
 {
-    public Buarmabpi5dp0ox4idcpContext()
+    public DeudoresDbContext()
     {
     }
 
-    public Buarmabpi5dp0ox4idcpContext(DbContextOptions<Buarmabpi5dp0ox4idcpContext> options)
+    public DeudoresDbContext(DbContextOptions<DeudoresDbContext> options)
         : base(options)
     {
     }
